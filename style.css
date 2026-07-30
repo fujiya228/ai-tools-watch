@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+       color: #222; background: #fafafa; line-height: 1.7; }
+a { color: #1a5da6; }
+header.site { background: #1a3a5c; color: #fff; padding: 0.8rem 1rem; }
+header.site a { color: #fff; text-decoration: none; }
+header.site .site-title { font-size: 1.2rem; font-weight: bold; }
+header.site nav a { margin-right: 1em; font-size: 0.9rem; }
+.ai-notice { background: #eef4fb; border-bottom: 1px solid #cdddee; padding: 0.4rem 1rem; font-size: 0.85rem; }
+.pr-notice { background: #fff8e6; border-bottom: 1px solid #eadfae; padding: 0.4rem 1rem; font-size: 0.85rem; }
+main { max-width: 960px; margin: 0 auto; padding: 1rem; }
+h1 { font-size: 1.5rem; border-bottom: 2px solid #1a3a5c; padding-bottom: 0.3rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; background: #fff; font-size: 0.95rem; }
+th, td { border: 1px solid #ccc; padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; }
+th { background: #eef2f6; }
+tr:nth-child(even) td { background: #f7f9fb; }
+.btn { display: inline-block; background: #1a5da6; color: #fff; padding: 0.5rem 1.2rem;
+       border-radius: 4px; text-decoration: none; margin: 0.5rem 0; }
+.pr-label { font-size: 0.8rem; color: #8a6d00; }
+ul.sources { font-size: 0.9rem; }
+footer.site { margin-top: 3rem; background: #1a3a5c; color: #ddd; padding: 1rem; font-size: 0.85rem; }
+footer.site a { color: #fff; }
+@media (max-width: 600px) {
+  main { padding: 0.5rem; }
+  th, td { padding: 0.4rem; font-size: 0.85rem; }
+}
